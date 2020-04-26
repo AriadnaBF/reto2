@@ -38,3 +38,73 @@ nav a:hover {
   background-color: #fff;
   color: black;
 }
+
+input[type="text"] {
+  border: none;
+}
+
+.text-small {
+  font-size: 12px;
+  color: gray;
+}
+
+.search-wrap {
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+
+.bg-img-trending-1 {
+  height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/post-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-trending-2 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/post-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-trending-3 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/post-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-trending-4 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/post-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.category {
+  color: white;
+}
