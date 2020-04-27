@@ -150,3 +150,43 @@ input[type="text"] {
   color: darkslategrey;
   font-size: 20px;
 }
+
+ol {
+  counter-reset: li;
+  margin-left: 0;
+  padding-left: 0;
+}
+ol > li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+li:before {
+  content: counter(li);
+  counter-increment: li;
+  box-sizing: border-box;
+  width: 25px;
+  margin-right: 15px;
+  padding: 5px 10px;
+  color: #fff;
+  background: rgb(133, 133, 133);
+  border-radius: 3px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.icon-large {
+  font-size: 25px;
+}
+
+.color-darkblue {
+  color: #3b5998;
+}
+
+.color-blue {
+  color: #00acee;
+}
+
+.color-red {
+  color: #c4302b;
+}
