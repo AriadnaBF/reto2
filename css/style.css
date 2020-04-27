@@ -108,3 +108,45 @@ input[type="text"] {
 .category {
   color: white;
 }
+
+.border-sections {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.border-pink {
+  border-left: 5px solid rgb(177, 34, 106);
+}
+
+.color-pink {
+  color: rgb(177, 34, 106);
+  font-size: 20px;
+}
+
+.border-green {
+  border-left: 5px solid darkgreen;
+}
+
+.color-green {
+  color: darkgreen;
+  font-size: 20px;
+}
+
+.border-yellow {
+  border-left: 5px solid chocolate;
+}
+
+.color-yellow {
+  color: chocolate;
+  font-size: 20px;
+}
+
+.border-grey {
+  border-left: 5px solid darkslategrey;
+}
+
+.color-grey {
+  color: darkslategrey;
+  font-size: 20px;
+}
