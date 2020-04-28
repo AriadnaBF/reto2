@@ -10,24 +10,13 @@ body {
   padding-bottom: 10px;
 }
 
-nav a {
-  color: white;
-}
 nav a:hover {
   color: white;
 }
 
 .nav-text-small {
   font-size: 12px;
-}
-
-.link-deco-none:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.border-left-white {
-  border-left: 1px solid white;
+  line-height: 24px;
 }
 
 .menu-collapsed {
@@ -35,8 +24,15 @@ nav a:hover {
 }
 
 .btn {
+  height: 40px;
   background-color: #fff;
   color: black;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  border-radius: 0;
+  border-bottom: 5px solid grey;
 }
 
 input[type="text"] {
@@ -205,4 +201,8 @@ li:before {
 
 .submit-email {
   width: 100%;
+}
+
+.footer-color {
+  background-color: #222222;
 }
