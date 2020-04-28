@@ -190,3 +190,19 @@ li:before {
 .color-red {
   color: #c4302b;
 }
+
+.icon-xl {
+  font-size: 36px;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+
+.bg-mint {
+  background-color: #16b978;
+}
+
+.submit-email {
+  width: 100%;
+}
