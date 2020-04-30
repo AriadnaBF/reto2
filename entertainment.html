@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magnews - Home</title>
+    <title>Magnews - Entertainment</title>
     <link rel="icon" type="image/png" href="images/icons/favicon.png" />
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -102,8 +102,6 @@
           </div>
           <div class="row">
             <div class="d-none d-lg-block col-lg-8 mt-3">
-              <!-- ESTOS SON LOS BOTONES QUE ME ESTÁN DANDO PROBLEMAS -->
-
               <nav class="btn-group" role="group" aria-label="Basic example">
                 <div class="btn-group">
                   <button
@@ -237,12 +235,12 @@
     </div>
 
     <main class="container">
-      <!-- TRENDING NOW + BARRA BUSCA -->
+      <!-- BREADCRUMBS + BARRA BUSCA -->
       <div class="row justify-content-between px-3 mb-3">
         <div class="col-lg-8 d-flex align-items-end">
-          <h6>TRENDING NOW:</h6>
           <span class="d-block text-small ml-3 mb-2">
-            Interest rate trips up US equity all but market
+            <a href="index.html" class="text-reset">Home</a> > Categories >
+            Entertainment
           </span>
         </div>
         <div class="col-lg-4">
@@ -255,15 +253,19 @@
       </div>
 
       <!-- CUADRICULA ARTICULOS -->
+      <div class="row">
+        <div class="col-12 mb-4"><h1>Entertainment</h1></div>
+      </div>
       <div class="row justify-content-center">
         <div
-          class="bg-img-trending-1 col-lg-6 d-flex flex-column justify-content-end align-items-start border border-white"
+          class="bg-img-entertainment-1 col-lg-6 d-flex flex-column justify-content-end align-items-start border border-white"
         >
           <span class="category border border-white py-1 px-1">
-            Business
+            Celebrity
           </span>
           <h2 class="text-white">
-            Microsoft lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Music reiciendis similique molestias tempore placeat fugiat quia
+            adipisci illo eveniet neque deserunt, porro atque.
           </h2>
           <p class="text-white text-extra-small">
             Jack Sims - Feb 16
@@ -272,17 +274,29 @@
         <div class="col-lg-6">
           <div class="row">
             <div
-              class="col-lg-12 bg-img-trending-2 d-flex flex-column justify-content-end align-items-start border border-white"
+              class="col-lg-6 bg-img-entertainment-2 d-flex flex-column justify-content-end align-items-start border border-white"
             >
               <span class="category border border-white py-1 px-1">
-                Culture
+                Games
               </span>
-              <h4 class="text-white mb-3">
-                London sit suscipit natus qui facilis aspernatur et ipsum
-              </h4>
+              <h5 class="text-white mb-3">
+                Pellentesque laudantium voluptatem sequi cumque fugit, delectus
+                harum
+              </h5>
             </div>
             <div
-              class="col-lg-6 bg-img-trending-3 d-flex flex-column justify-content-end align-items-start border border-white"
+              class="col-lg-6 bg-img-entertainment-3 d-flex flex-column justify-content-end align-items-start border border-white"
+            >
+              <span class="category border border-white py-1 px-1">
+                Music
+              </span>
+              <h5 class="text-white mb-3">
+                Pellentesque laudantium voluptatem sequi cumque fugit, delectus
+                harum
+              </h5>
+            </div>
+            <div
+              class="col-lg-6 bg-img-entertainment-4 d-flex flex-column justify-content-end align-items-start border border-white"
             >
               <span class="category border border-white py-1 px-1">
                 Life Style
@@ -293,10 +307,10 @@
               </h5>
             </div>
             <div
-              class="col-lg-6 bg-img-trending-4 d-flex flex-column justify-content-end align-items-start border border-white"
+              class="col-lg-6 bg-img-entertainment-5 d-flex flex-column justify-content-end align-items-start border border-white"
             >
               <span class="category border border-white py-1 px-1">
-                Sport
+                Music
               </span>
               <h5 class="text-white mb-3">
                 Motorbike eligendi tempora quae fugiat, repellat nulla iure
@@ -306,303 +320,152 @@
           </div>
         </div>
       </div>
-      <!-- ENTERTAINMENT + BUSINESS + TRAVEL // ASIDE -->
+      <!-- ARTICLES // ASIDE -->
 
       <div class="row mt-4">
         <div class="col-lg-8">
-          <section id="entertainment" class="row">
-            <div class="col">
-              <div class="border-sections border-pink px-2 py-2">
-                <div class="row">
-                  <div class="col-4 col-lg-3">
-                    <div class="color-pink font-weight-bold">
-                      Entertainment
-                    </div>
-                  </div>
-                  <div
-                    class="col-4 d-flex flex-grow-1 text-center justify-content-center align-self-center d-lg-none"
-                  >
-                    <i class="fas fa-ellipsis-h"></i>
-                  </div>
-                  <div class="d-none d-lg-flex align-items-end nav nav-fill">
-                    <a href="" class="nav-item mr-3 text-reset">All</a>
-                    <a href="" class="nav-item mr-3 text-reset">Celebrity</a>
-                    <a href="" class="nav-item mr-3 text-reset">Movies</a>
-                    <a href="" class="nav-item mr-3 text-reset">Music</a>
-                    <a href="" class="nav-item text-reset">Games</a>
-                  </div>
-                  <div
-                    class="col-4 col-lg-2 ml-auto d-flex align-items-end text-right"
-                  >
-                    <a href="" class="text-secondary"
-                      >View All <i class="fas fa-caret-right ml-2"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col col-lg-6">
-                  <img
-                    src="images/post-05.jpg"
-                    class="card-img-top mb-2"
-                    alt="..."
-                  />
-                  <div>
-                    <h5>
-                      American live Lorem ipsum dolor sit amet, consectetur
-                    </h5>
-                    <p class="text-small">Music - Feb 18</p>
-                  </div>
-                  <div class="col-6"></div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-06.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Music - Feb 17</p>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-07.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Game - Feb 16</p>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-08.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Celebrity - Feb 12</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col mt-4">
+              <img src="images/entertaiment-06.jpg" class="img-fluid" alt="" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 18</p>
             </div>
-          </section>
-          <section id="business" class="row">
-            <div class="col col-lg-12">
-              <div class="border-sections border-green px-2 py-2">
-                <div class="row">
-                  <div class="col-4 col-lg-2">
-                    <div class="color-green font-weight-bold">
-                      Business
-                    </div>
-                  </div>
-                  <div
-                    class="col-4 d-flex flex-grow-1 text-center justify-content-center align-self-center d-lg-none"
-                  >
-                    <i class="fas fa-ellipsis-h"></i>
-                  </div>
-                  <div class="d-none d-lg-flex align-items-end nav nav-fill">
-                    <a href="" class="nav-item mr-3 text-reset">All</a>
-                    <a href="" class="nav-item mr-3 text-reset">Finance</a>
-                    <a href="" class="nav-item mr-3 text-reset"
-                      >Money & Markets</a
-                    >
-                    <a href="" class="nav-item mr-3 text-reset"
-                      >Small Business</a
-                    >
-                  </div>
-                  <div
-                    class="col-4 col-lg-2 ml-auto d-flex align-items-end text-right"
-                  >
-                    <a href="" class="text-secondary"
-                      >View All <i class="fas fa-caret-right ml-2"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col col-lg-6">
-                  <img
-                    src="images/post-10.jpg"
-                    class="card-img-top mb-2"
-                    alt="..."
-                  />
-                  <div>
-                    <h5>
-                      Bitcoin Lorem ipsum dolor sit amet, consectetur
-                    </h5>
-                    <p class="text-small">Finance - Feb 18</p>
-                  </div>
-                  <div class="col-6"></div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-11.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Small business - Feb 17</p>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-12.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Economy - Feb 16</p>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-13.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Money & Markets - Feb 12</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                  </div>
-                </div>
-              </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-07.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 15</p>
             </div>
-          </section>
-          <section id="travel" class="row">
-            <div class="col col-lg-12">
-              <div class="border-sections border-yellow px-2 py-2">
-                <div class="row">
-                  <div class="col-4 col-lg-2">
-                    <div class="color-yellow font-weight-bold">
-                      Travel
-                    </div>
-                  </div>
-                  <div
-                    class="col-4 d-flex flex-grow-1 text-center justify-content-center align-self-center d-lg-none"
-                  >
-                    <i class="fas fa-ellipsis-h"></i>
-                  </div>
-                  <div class="d-none d-lg-flex align-items-end nav nav-fill">
-                    <a href="" class="nav-item mr-3 text-reset">All</a>
-                    <a href="" class="nav-item mr-3 text-reset">Hotels</a>
-                    <a href="" class="nav-item mr-3 text-reset">Flights</a>
-                    <a href="" class="nav-item mr-3 text-reset">Beach</a>
-                    <a href="" class="nav-item mr-3 text-reset">Culture</a>
-                  </div>
-                  <div
-                    class="col-4 col-lg-2 ml-auto d-flex align-items-end text-right"
-                  >
-                    <a href="" class="text-secondary"
-                      >View All <i class="fas fa-caret-right ml-2"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mt-4">
-                <div class="col col-lg-6">
-                  <img
-                    src="images/post-14.jpg"
-                    class="card-img-top mb-2"
-                    alt="..."
-                  />
-                  <div>
-                    <h5>
-                      You wish lorem ipsum dolor sit amet, consectetur
-                    </h5>
-                    <p class="text-small">Hotels - Feb 18</p>
-                  </div>
-                  <div class="col-6"></div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-15.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Beach - Feb 17</p>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-16.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Flight - Feb 16</p>
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col-4">
-                          <img
-                            src="images/post-17.jpg"
-                            class="img-fluid"
-                            alt=""
-                          />
-                        </div>
-                        <div class="col-8">
-                          <h6>Donet metus orci, malesuda et vectus vitae</h6>
-                          <p class="text-small">Culture - Feb 12</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-08.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 13</p>
             </div>
-          </section>
+            <div class="col mt-4">
+              <img src="images/entertaiment-09.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 10</p>
+            </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-10.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 09</p>
+            </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-11.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 07</p>
+            </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-12.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 07</p>
+            </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-13.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 07</p>
+            </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-14.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 07</p>
+            </div>
+            <div class="col mt-4">
+              <img src="images/entertaiment-15.jpg" alt="" class="img-fluid" />
+              <h5 class="mt-3">
+                You wish Lorem ipsum dolor sit amet consectetur.
+              </h5>
+              <p class="d-inline-block text-small font-weight-bold">
+                by John Alvarado
+              </p>
+              <p class="d-inline-block text-small">- Feb 07</p>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12">
+              <button
+                type="button"
+                class="btn btn-outline-success rounded-circle mr-1"
+              >
+                1
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-success rounded-circle"
+              >
+                2
+              </button>
+            </div>
+          </div>
         </div>
 
         <!-- ASIDE -->
 
-        <aside class="col-lg-4">
+        <aside class="col-lg-4 mt-4">
           <div class="row">
+            <div class="col mb-5">
+              <div class="bg-mint p-4">
+                <h5 class="text-white font-weight-bold">Subscribe</h5>
+                <p class="small-text text-white">
+                  Get all latest content delivered to your email a few times a
+                  month.
+                </p>
+                <div class="bg-white d-flex align-items-center p-3">
+                  <input
+                    type="text"
+                    class="submit-email"
+                    placeholder="Email"
+                  /><i class="fas fa-arrow-right text-secondary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
             <div class="col">
               <div
                 class="border-sections border-grey px-2 py-2 color-grey font-weight-bold"
@@ -620,7 +483,7 @@
               </ol>
             </div>
           </div>
-          <div class="row">
+          <div class="row mb-5">
             <div class="col">
               <img
                 src="images/banner-02.jpg"
@@ -630,186 +493,9 @@
             </div>
           </div>
           <div class="row mt-4">
-            <div class="col">
-              <div
-                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold"
-              >
-                Stay Connected
-              </div>
-              <div class="row d-flex my-3">
-                <div class="col-1">
-                  <i
-                    class="fab fa-facebook-square icon-large color-darkblue"
-                  ></i>
-                </div>
-                <div class="col flex-grow-1">6879 Fans</div>
-                <div class="col text-right font-weight-bold">LIKE</div>
-              </div>
-              <div class="row d-flex my-3">
-                <div class="col-1">
-                  <i class="fab fa-twitter-square icon-large color-blue"></i>
-                </div>
-                <div class="col flex-grow-1">568 Followers</div>
-                <div class="col text-right font-weight-bold">FOLLOW</div>
-              </div>
-              <div class="row d-flex my-3">
-                <div class="col-1">
-                  <i class="fab fa-youtube-square icon-large color-red"></i>
-                </div>
-                <div class="col flex-grow-1">5390 Subscribers</div>
-                <div class="col text-right font-weight-bold">SUBSCRIBE</div>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-
-      <!-- BANNER MEDIO -->
-      <div class="row">
-        <div class="col">
-          <img
-            src="images/banner-01.jpg"
-            alt="Click to download magnet template"
-            class="img-fluid mx-auto d-block"
-          />
-        </div>
-      </div>
-
-      <!-- LATEST ARTICLES -->
-
-      <div class="row mt-4">
-        <div id="latest-articles" class="col-lg-8">
-          <div class="row">
-            <div class="col">
-              <div
-                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold"
-              >
-                Latest Articles
-              </div>
-            </div>
-          </div>
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col mt-4">
-              <img src="images/latest-01.jpg" class="img-fluid" alt="" />
-              <h5 class="mt-3">
-                You wish Lorem ipsum dolor sit amet consectetur.
-              </h5>
-              <p class="d-inline-block text-small font-weight-bold">
-                by John Alvarado
-              </p>
-              <p class="d-inline-block text-small">- Feb 18</p>
-            </div>
-            <div class="col mt-4">
-              <img src="images/latest-02.jpg" alt="" class="img-fluid" />
-              <h5 class="mt-3">
-                You wish Lorem ipsum dolor sit amet consectetur.
-              </h5>
-              <p class="d-inline-block text-small font-weight-bold">
-                by John Alvarado
-              </p>
-              <p class="d-inline-block text-small">- Feb 15</p>
-            </div>
-            <div class="col mt-4">
-              <img src="images/latest-03.jpg" alt="" class="img-fluid" />
-              <h5 class="mt-3">
-                You wish Lorem ipsum dolor sit amet consectetur.
-              </h5>
-              <p class="d-inline-block text-small font-weight-bold">
-                by John Alvarado
-              </p>
-              <p class="d-inline-block text-small">- Feb 13</p>
-            </div>
-            <div class="col mt-4">
-              <img src="images/latest-04.jpg" alt="" class="img-fluid" />
-              <h5 class="mt-3">
-                You wish Lorem ipsum dolor sit amet consectetur.
-              </h5>
-              <p class="d-inline-block text-small font-weight-bold">
-                by John Alvarado
-              </p>
-              <p class="d-inline-block text-small">- Feb 10</p>
-            </div>
-            <div class="col mt-4">
-              <img src="images/latest-05.jpg" alt="" class="img-fluid" />
-              <h5 class="mt-3">
-                You wish Lorem ipsum dolor sit amet consectetur.
-              </h5>
-              <p class="d-inline-block text-small font-weight-bold">
-                by John Alvarado
-              </p>
-              <p class="d-inline-block text-small">- Feb 09</p>
-            </div>
-            <div class="col mt-4">
-              <img src="images/latest-06.jpg" alt="" class="img-fluid" />
-              <h5 class="mt-3">
-                You wish Lorem ipsum dolor sit amet consectetur.
-              </h5>
-              <p class="d-inline-block text-small font-weight-bold">
-                by John Alvarado
-              </p>
-              <p class="d-inline-block text-small">- Feb 07</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- ASIDE  -->
-        <aside class="col-lg-4">
-          <div class="row">
             <div class="col-12">
               <div
-                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold"
-              >
-                Featured Video
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 mt-4">
-                <div class="card bg-dark text-white">
-                  <img src="images/video-01.jpg" class="card-img" alt="..." />
-                  <div
-                    class="card-img-overlay d-flex justify-content-center align-items-center"
-                  >
-                    <p class="card-text icon-xl text-center">
-                      <i class="fab fa-youtube"></i>
-                    </p>
-                  </div>
-                </div>
-                <div class="bg-dark video">
-                  <h5 class="pt-3 pl-3 text-white">
-                    Music lorem ipsum dolor sit amet consectetur.
-                  </h5>
-                  <p
-                    class="d-inline-block pl-3 text-small font-weight-bold text-white"
-                  >
-                    by John Alvarado
-                  </p>
-                  <p class="d-inline-block text-small text-white">- Feb 07</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="bg-mint p-4 mt-5">
-                <h5 class="text-white font-weight-bold">Subscribe</h5>
-                <p class="small-text text-white">
-                  Get all latest content delivered to your email a few times a
-                  month.
-                </p>
-                <div class="bg-white d-flex align-items-center p-3">
-                  <input
-                    type="text"
-                    class="submit-email"
-                    placeholder="Email"
-                  /><i class="fas fa-arrow-right text-secondary"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col-12 mb-3">
-              <div
-                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold"
+                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold mb-3"
               >
                 Tags
               </div>

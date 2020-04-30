@@ -23,14 +23,14 @@ nav a:hover {
   font-size: 34px;
 }
 
-.btn {
+header .btn {
   height: 40px;
   background-color: #fff;
   color: black;
   box-sizing: border-box;
 }
 
-.btn:hover {
+header .btn:hover {
   border-radius: 0;
   border-bottom: 5px solid grey;
 }
@@ -96,6 +96,71 @@ input[type="text"] {
       rgba(0, 0, 0, 0.67) 100%
     ),
     url(../images/post-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-entertainment-1 {
+  height: 500px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/entertaiment-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-entertainment-2 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/entertaiment-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-entertainment-3 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/entertaiment-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-entertainment-4 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/entertaiment-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-entertainment-5 {
+  height: 250px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.67) 100%
+    ),
+    url(../images/entertaiment-05.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -191,8 +256,11 @@ li:before {
   font-size: 36px;
 }
 
-.card {
+.card,
+.video {
   border-radius: 0 !important;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .bg-mint {
@@ -205,4 +273,35 @@ li:before {
 
 .footer-color {
   background-color: #222222;
+}
+
+.btn-social {
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.bg-darkblue {
+  background-color: #3b5998;
+}
+
+.bg-blue {
+  background-color: #00acee;
+}
+
+.bg-orange {
+  background-color: #db4a39;
+}
+
+.bg-red {
+  background-color: #c4302b;
+}
+
+.comment-form input:not([type="submit"]) {
+  width: 50%;
+  box-sizing: content-box;
+}
+
+.comment-form [type="submit"] {
+  width: 25%;
+  box-sizing: content-box;
 }

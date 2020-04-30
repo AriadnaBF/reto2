@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magnews - Blog</title>
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/ce28a68120.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- NAV NEGRO  -->
+
+      <div class="d-none d-lg-block bg-black text-white py-2">
+        <nav class="container">
+          <div class="row">
+            <div class="col-lg-5 nav nav-fill">
+              <a
+                href=""
+                class="nav-text-small text-reset pr-4 align-items-center"
+                >New York, NY <i class="far fa-moon nav-text-small"></i> HI 58º
+                LO 56º</a
+              >
+              <a
+                href="aboutus.html"
+                class="nav-text-small text-reset nav-item border-left border-light align-text-bottom"
+                >About</a
+              >
+
+              <a
+                href="contact.html"
+                class="nav-text-small text-reset nav-item border-left border-light"
+                >Contact</a
+              >
+
+              <a
+                href=""
+                class="nav-text-small text-reset nav-item border-left border-light"
+                >Sign up</a
+              >
+
+              <a
+                href=""
+                class="nav-text-small text-reset nav-item border-left border-light"
+                >Log in</a
+              >
+            </div>
+            <div class="col-lg-2 ml-auto text-right">
+              <a href="" class="ml-1 text-reset"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="" class="ml-1 text-reset"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="" class="ml-1 text-reset"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="" class="ml-1 text-reset"
+                ><i class="fab fa-vimeo-v"></i
+              ></a>
+              <a href="" class="ml-1 text-reset"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- BANNER & NAVEGADOR BLANCO -->
+
+      <div class="shadow pb-3 mb-5 bg-white rounded">
+        <div class="container">
+          <div class="row pt-4 justify-content-center align-items-center">
+            <div class="col-10 col-lg-4">
+              <a href="index.html">
+                <img
+                  src="images/icons/logo-01.png"
+                  alt="logo"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-2 d-lg-none">
+              <i class="fas fa-bars menu-collapsed"></i>
+            </div>
+            <div class="d-none d-lg-block col-lg-8">
+              <img
+                src="images/banner-01.jpg"
+                alt="Download Magnews template"
+                class="img-fluid align-middle"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-none d-lg-block col-lg-8 mt-3">
+              <nav class="btn-group" role="group" aria-label="Basic example">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    id="buttonHome"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Home
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonHome">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonNews"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    News
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonNews">
+                    <a class="dropdown-item" href="blog.html">Blog</a>
+                    <a class="dropdown-item" href="latestentries.html"
+                      >Latest Post</a
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonEntertainment"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Entertainment
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="buttonEntertainment"
+                  >
+                    <a class="dropdown-item" href="entertainment.html"
+                      >Entertainment</a
+                    >
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonBusiness"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Business
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonBusiness">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonTravel"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Travel
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonTravel">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonLifestyle"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Life Style
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonLifestyle">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonVideo"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Video
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonVideo">
+                    <a class="dropdown-item" href="#">Action</a>
+                  </div>
+                  <button
+                    type="button"
+                    id="buttonFeatures"
+                    class="btn dropdown-toggle font-weight-bold"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Features
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="buttonFeatures">
+                    <a class="dropdown-item" href="aboutus.html">About Us</a>
+                    <a class="dropdown-item" href="contact.html">Contact</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANNER FUERA DEL NAV VISTA MOBILE (DEBAJO DE LA SOMBRA)-->
+    <div class="container d-lg-none">
+      <div class="row">
+        <div class="col-12 px-2">
+          <img src="images/banner-01.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <!-- BREADCRUMBS + BARRA BUSCA -->
+      <div class="row justify-content-between px-3 mb-3">
+        <div class="col-lg-8 d-flex align-items-end">
+          <span class="d-block text-small ml-3 mb-2">
+            <a href="index.html" class="text-reset">Home</a> > Blog
+          </span>
+        </div>
+        <div class="col-lg-4">
+          <span class="search-wrap px-3 py-1 float-lg-right">
+            <input type="text" placeholder="Search" /><i
+              class="fas fa-search"
+            ></i>
+          </span>
+        </div>
+      </div>
+
+      <!-- ENTRADAS BLOG -->
+
+      <div class="row mt-4">
+        <div class="col-12"><h1>Blog List</h1></div>
+      </div>
+      <div class="row mt-4 mb-5">
+        <div class="col-lg-8 pr-2 mb-5">
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-43.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>Robot lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-44.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>Health lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-45.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>Success lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-46.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>Bitcoin lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-47.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>American bank lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-48.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>Macbook New 12 lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <article class="row mb-5">
+            <div class="col-4">
+              <img src="images/post-49.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-8">
+              <h2>You wish lorem ipsum dolor sit amet consectetur</h2>
+              <p class="text-small">by John Alvarado - Feb 18</p>
+              <p class="text-secondary">
+                Eligendi quod iure pariatur eum odio ea esse, sunt molestiae,
+                ipsam aspernatur soluta, fuga nemo culpa!
+              </p>
+              <a href="" class="text-reset text-secondary"
+                >Read More <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
+            </div>
+          </article>
+          <div class="border border-grey text-secondary py-2 px-2 text-center">
+            Load More
+          </div>
+        </div>
+
+        <!-- ASIDE -->
+
+        <aside class="col-lg-4">
+          <div class="row">
+            <div class="col mb-5">
+              <div class="bg-mint p-4">
+                <h5 class="text-white font-weight-bold">Subscribe</h5>
+                <p class="small-text text-white">
+                  Get all latest content delivered to your email a few times a
+                  month.
+                </p>
+                <div class="bg-white d-flex align-items-center p-3">
+                  <input
+                    type="text"
+                    class="submit-email"
+                    placeholder="Email"
+                  /><i class="fas fa-arrow-right text-secondary"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div
+                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold"
+              >
+                Most popular
+              </div>
+              <ol class="mt-4">
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </li>
+                <li>Rerum optio quaerat beatae praesentium</li>
+                <li>Non at consequuntur laudantium</li>
+                <li>Provident sit veniam molestias!</li>
+                <li>Eos, illo nisi totam atque at aut porro voluptate!</li>
+              </ol>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <img
+                src="images/banner-02.jpg"
+                alt=""
+                class="img-fluid mx-auto d-block"
+              />
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12">
+              <div
+                class="border-sections border-grey px-2 py-2 color-grey font-weight-bold mb-3"
+              >
+                Tags
+              </div>
+            </div>
+            <div class="row">
+              <div class="col d-flex justify-content-start flex-wrap">
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Fashion
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Lifestyle
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Denim
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Streetstyle
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Crafts
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Magazine
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  News
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary rounded-pill m-2"
+                >
+                  Blogs
+                </button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer-color text-white mt-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-12 col-lg-4 mb-5">
+            <img
+              src="images/icons/logo-02.png"
+              alt="logo"
+              class="img-fluid mb-4"
+            />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              provident pariatur sint iure distinctio, doloremque voluptate illo
+              maiores fuga modi voluptatem hic laudantium, optio vel dolorem
+              iste cupiditate placeat aut?
+            </p>
+            <p class="mb-4">Any questions? Call us on (+1)76 6985 1234</p>
+            <div class="d-flex justify-content-start">
+              <a href="" class="text-reset"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="" class="ml-3 text-reset"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="" class="ml-3 text-reset"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="" class="ml-3 text-reset"
+                ><i class="fab fa-vimeo-v"></i
+              ></a>
+              <a href="" class="ml-3 text-reset"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-5">
+            <h4 class="mb-4 font-weight-bold">Popular posts</h4>
+            <div class="row mb-3">
+              <div class="col-3 pr-0">
+                <img
+                  src="images/popular-post-01.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-8">
+                <h6>Donet metus orci, malesuda et vectus vitae</h6>
+                <p class="text-small">Feb 17</p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-3 pr-0">
+                <img
+                  src="images/popular-post-02.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-8">
+                <h6>Donet metus orci, malesuda et vectus vitae</h6>
+                <p class="text-small">Feb 16</p>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-3 pr-0">
+                <img
+                  src="images/popular-post-03.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="col-8">
+                <h6>Donet metus orci, malesuda et vectus vitae</h6>
+                <p class="text-small">Feb 15</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <h4 class="mb-4 font-weight-bold">Category</h4>
+            <div
+              class="pb-2 border border-top-0 border-right-0 border-left-0 border-bottom-light"
+            >
+              Fashion (22)
+            </div>
+            <div
+              class="py-2 border border-top-0 border-right-0 border-left-0 border-bottom-light"
+            >
+              Technology (29)
+            </div>
+            <div
+              class="py-2 border border-top-0 border-right-0 border-left-0 border-bottom-light"
+            >
+              Street style (15)
+            </div>
+            <div
+              class="py-2 border border-top-0 border-right-0 border-left-0 border-bottom-light"
+            >
+              Life style (28)
+            </div>
+            <div class="pt-2">DIY & Crafts (16)</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
