@@ -40,7 +40,7 @@ input[type="text"] {
 }
 
 .text-small {
-  font-size: 12px;
+  font-size: 0.8rem;
   color: gray;
 }
 
@@ -304,4 +304,23 @@ li:before {
 .comment-form [type="submit"] {
   width: 25%;
   box-sizing: content-box;
+}
+
+@media (min-width: 2000px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  a {
+    font-size: 0.5rem;
+  }
+
+  .text-small {
+    font-size: 0.7rem;
+  }
 }
